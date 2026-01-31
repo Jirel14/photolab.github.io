@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DibonDev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="">Home</a>
+            <a href="#destinations">Gallery</a>
+            <a href="#about">About Me</a>
+            <a href="#contact">Contact</a>
+            <a href="quiz/quiz.html">Quiz</a>
+        </nav>
+    </header>
+
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="image/img (2).jpg">
+                <div class="content">
+                    <div class="title">JAPANESE TEMPLE</div>
+                    <div class="topic">神社</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        神社（じんじゃ）は、日本の伝統と精神文化を象徴する大切な場所です。鳥居をくぐると、静かで神聖な空気が広がり、
+                        自然と調和した落ち着いた空間を感じることができます。神社は神様を祀る場所として、古くから人々の祈りや感謝の気持ちが込められてきました。
+                        四季折々の風景に囲まれた神社は、訪れる人に心の安らぎと日本文化の深さを伝えてくれます。
+                    </div>
+                    <div class="buttons">
+                        <button onclick="location.href='#destinations'">SEE MORE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img (7).JPG">
+                <div class="content">
+                    <!--<div class="author">DibonDev</div>-->
+                    <div class="title">Sunflower</div>
+                    <div class="topic">ヒマワリ</div>
+                    <div class="des">
+                        ヒマワリ（向日葵）は、太陽に向かって大きく咲く明るい花で、元気さや希望を象徴しています。
+                        黄色く広がる花びらと力強い茎が特徴で、見る人に前向きで明るい気持ちを与えます。
+                        夏を代表する花として世界中で親しまれており、畑や庭に咲く姿は活力と生命力を感じさせます。ヒマワリは、自然のエネルギーと温かさを表
+                    </div>
+                    <div class="buttons">
+                        <button onclick="location.href='#destinations'">SEE MORE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img (17).jpg">
+                <div class="content">
+                    <!--<div class="author">DibonDev</div>-->
+                    <div class="title">Morning Glory</div>
+                    <div class="topic">アサガオ</div>
+                    <div class="des">
+                        アサガオ（朝顔）は、朝に美しく花を咲かせることで知られている花です。つる性の植物で、ラッパのような形をした花が特徴です。
+                        青や紫などの涼しげな色合いが多く、夏の風景を代表する花として親しまれています。アサガオは、はかない美しさや新しい始まりを象徴する花とされ、
+                        その清らかな姿は見る人に静かな癒しと季節の移ろいを感じさせます。
+                    </div>
+                    <div class="buttons">
+                        <button onclick="location.href='#destinations'">SEE MORE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img (23).jpg">
+                <div class="content">
+                    <!--<div class="author">DibonDev</div>-->
+                    <div class="title">Hibiscus</div>
+                    <div class="topic">ハイビスカス</div>
+                    <div class="des">
+                        ハイビスカスは、大きくて色鮮やかな花が特徴の植物です。広く開いた花びらと中央のはっきりした色合いがとても美しく、
+                        見る人に明るく華やかな印象を与えます。温暖な地域でよく育ち、観賞用として庭や公園で親しまれています。
+                        また、ハイビスカスは美しさや前向きな気持ちを象徴する花としても知られており、その優雅な姿は自然の魅力を感じさせてくれます。
+                    </div>
+                    <div class="buttons">
+                        <button onclick="location.href='#destinations'">SEE MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="image/img (2).jpg">
+                <div class="content">
+                    <div class="title">
+                        Japanese Temple
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img (7).JPG">
+                <div class="content">
+                    <div class="title">
+                        Sunflower
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img (17).jpg">
+                <div class="content">
+                    <div class="title">
+                        Morning Glory
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img (23).jpg">
+                <div class="content">
+                    <div class="title">
+                        Hibiscus
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev">
+                < </button>
+                    <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+    <main>
+        </section>
+        <!-- Destinations -->
+        <section id="destinations" class="destinations scroll-animate">
+            <h2 class="Gallery-title">Gallery</h2>
+            <div class="destination-grid">
+                <div class="destination-item">
+                    <img src="image/Tokyo (2).JPG" alt="Odaiba" class="clickable-image" />
+                    <h3>TOKYO TOWER</h3>
+                    <p>
+                        東京タワーは1958年に完成し、高さ333メートルのランドマークです。エッフェル塔を模したデザインで、展望台からは東京の景色や富士山を楽しめます。
+                        夜には美しいライトアップが魅力で、フットタウンにはショップやレストランもあります。
+                    </p>
+                </div>
+                <div class="destination-item">
+                    <img src="image/img (16).jpg" alt="Image" class="clickable-image" id="image" />
+                    <h3>STATUE OF LIBERTY <br>(お台場)</h3>
+                    <p>
+                        お台場にある自由の女神像は、レインボーブリッジと海を背景にした人気スポットです。
+                        夜景も美しく、写真撮影におすすめです。
+                    </p>
+                </div>
+                <div class="destination-item">
+                    <img src="image/ueno1.JPG" alt="Image" class="clickable-image" id="image" />
+                    <h3>上野公園</h3>
+                    <p>
+                        上野公園は自然と文化が楽しめる公園で、博物館や動物園があります。
+                        春の桜の名所としても有名です。
+                    </p>
+                </div>
+            </div>
+
+            <div class="destination-grid">
+                <div class="destination-item">
+                    <img src="image/img (1).jpg" alt="Image" class="clickable-image" id="image" />
+                    <h3>ODAIBA <br>(お台場)</h3>
+                    <p>
+                        お台場（Odaiba）は東京湾に浮かぶ人工島で、ショッピングモール、エンターテイメント施設、観覧車などが集まる人気の観光地です。
+                        レインボーブリッジや自由の女神像があり、美しい夜景が楽しめます。
+                    </p>
+                </div>
+                <div class="destination-item">
+                    <img src="image/kasai.jpeg" alt="Image" class="clickable-image" id="image" />
+                    <h3>FAIRY WHEEL <br> (フェアリーウィール)</h3>
+                    <p>
+                        フェアリーウィールは、葛西臨海公園の観覧車で、高さ117メートル。
+                        東京湾や富士山が見渡せ、夜は美しいライトアップが楽しめます。人気の観光スポットです。。
+                    </p>
+                </div>
+                <div class="destination-item">
+                    <img src="image/kahin.jpg" alt="Image" class="clickable-image" id="image" />
+                    <h3>海浜幕張駅周辺</h3>
+                    <p>
+                        ケーヒン幕張（Keihin Makuhari）は、千葉県幕張に位置するビジネスとエンターテイメントの中心地です。
+                        幕張メッセをはじめ、ショッピングモールやホテルが集まり、イベントやコンサートも盛況に行われています。海浜幕張駅周辺は、アクセスも良く、多くの人々に利用されています。
+                    </p>
+                </div>
+                <div class="destination-item">
+                    <img src="image/fireworks.JPG" alt="Image" class="clickable-image" id="image" />
+                    <h3>FIREWORKS <br>(花火)</h3>
+                    <p>
+                        花火は、夏の風物詩として日本で人気のあるイベントです。色とりどりの火花が空に広がり、音と光の美しいショーを楽しむことができます。
+                        夏の夜空を彩る花火大会は、友達や家族と過ごす特別な時間です。
+                    </p>
+                </div>
+                <div class="destination-item">
+                    <img src="image/kasai rinkei park.JPG" alt="Image" class="clickable-image" id="image" />
+                    <h3>葛西臨海公園の観覧車</h3>
+                    <p>
+                        葛西臨海公園の観覧車「フェアリーウィール」は、高さ117メートルで東京湾を一望できる絶景スポットです。
+                        晴れた日には東京スカイツリーや富士山も見え、夜にはライトアップされて美しい夜景が楽しめます。家族連れやカップルに人気です。
+                    </p>
+                </div>
+                <div class="destination-item">
+                    <img src="image/coming.jpg" alt="Image" class="clickable-image" id="image" />
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about scroll-animate">
+            <h3>About Me</h3>
+            <p>
+                こんにちは、ジレル（DIBONDEV）です。まだ初心者ですが、写真を撮るのが大好きで、毎日少しずつ技術を高めています。
+                自然光や日常の何気ない瞬間を大切にして、見た人に温かさを感じてもらえるような写真を目指しています。
+                これからもっと成長していきたいので、一緒に素敵な瞬間を切り取れることを楽しみにしています！
+            </p>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="image/IMG_3478.jpeg" alt="" />
+                    <h4>DibonDev <br>
+                        <p>Beginner Photographer/Programmer</p>
+                    </h4>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact scroll-animate">
+            <h3>Contact Me</h3>
+            <div class="contact-info">
+                <p>
+                    I’m continually learning and growing as a photographer and would truly appreciate any feedback or
+                    suggestions for improvement.
+                    If you’d like to connect or share your thoughts, feel free to fill out the form below or reach out
+                    using the contact information provided.
+                </p>
+                <ul>
+                    <!--<li>
+                        <i class="fas fa-map-marker-alt"></i>270-0016, 松戸市 日本
+                    </li>-->
+                    <li>
+                        <i class="fas fa-envelope"></i><a
+                            href="mailto:info@travelcompany.com">devjirel273@icloud.com</a>
+                    </li>
+                    <!--<li>
+                        <i class="fas fa-phone-alt"></i><a href="tel:555-123-4567">555-123-4567</a>
+                    </li>-->
+                </ul>
+            </div>
+            <form action="#" class="form">
+                <div class="form-group">
+                    <input type="name" name="name" id="name" placeholder="Enter Your Name" />
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email" />
+                </div>
+                <div class="form-group">
+                    <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Message"></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <footer>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" aria-label="Facebook">
+                    <img src="icon/icons8-facebook-logo-94.png" height="30px
+                " alt="Facebook"></a>
+                <a href="https://www.instagram.com/" aria-label="Instagram">
+                    <img src="icon/icons8-instagram-96.png" height="30px
+                " alt="Instagram"></a>
+                <a href="https://github.com/login" aria-label="GitHub">
+                    <img src="icon/icons8-github-96.png" height="30px
+                " alt="GitHub"></a><br>
+                <p>&copy; 2026 DibonDev All Rights Reserved</p>
+            </div>
+        </footer>
+    </main>
+    <!-- Image Popup Modal -->
+    <div id="imageModal" class="image-modal">
+        <span class="close-btn">&times;</span>
+        <img class="modal-img" id="modalImage">
+    </div>
+
+</body>
+
+<script src="app.js"></script>
+</body>
+
+</html>
